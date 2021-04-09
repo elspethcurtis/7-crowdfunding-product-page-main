@@ -1,0 +1,124 @@
+body{
+    margin:0;
+}
+
+header{
+    background-image: url(images/image-hero-mobile.jpg);
+    height: 300px;
+    background-position: 50%;
+    background-size: cover;
+}
+
+nav img{
+    margin-left:1.5rem;
+    margin-top:1.75rem;
+}
+
+
+/*HAMBURGER MENU*/
+.hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color:white;
+    background:none;
+    border:none;
+    font-size:1.5rem;
+  }
+
+  .x-icon{
+      display: none;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    list-style: none;
+    padding-top: 4rem;
+    margin: 0;
+    background:black;
+  }
+
+  .showMenu {
+    transform: translateY(0);
+  }
+
+  @media only screen and (min-width:800px){
+      .hamburger{
+          display: none;
+      }
+
+      .mobile-menu{
+          transform: none;
+          background:none;
+          transition:none;
+          padding:0;
+          position:relative;
+        width: 10%;   
+      }
+
+      nav img{
+          height:20px;
+      }
+  }
+
+  nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+  }
+
+  /* SECTION 1 */
+
+  .section-1,
+  .section-2,
+  .section-3 {
+      width:100%;
+      display: flex;
+      justify-content: center;
+      background: #faf5f5;
+  }
+
+.section-1 div{
+    margin-top:-50px;
+}
+
+  .section-1 div,
+  .section-2 div,
+  .section-3-main-div {
+    width: 50%;
+    border: lightgray solid 1px;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .section-2 div,
+  .section-3-main-div {
+      margin-top:50px;
+  }
+
+.section-3-main-div{
+    text-align:left;
+}
+
+  .reward{
+      border: lightgray solid 1px;
+      border-radius: 8px;
+      margin: 15px;
+      padding: 15px;
+      text-align: left;
+  }
