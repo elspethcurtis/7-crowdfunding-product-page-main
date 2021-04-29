@@ -36,7 +36,7 @@ function toggleMenu() {
 
 //MODAL
 
-//when you click bamboo or black 'select reward button' open modal
+//when you click bamboo or black 'select reward button' open modal OR BACK THIS PROJECT btn
 let modal = document.querySelector(".modal");
 //declare rewardBtn variable
 let rewardBtn = document.querySelectorAll(".rewardBtn");
