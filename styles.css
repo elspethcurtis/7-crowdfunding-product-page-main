@@ -24,6 +24,12 @@ header{
     background-size: cover;
 }
 
+@media only screen and (min-width: 800px) {
+    header{
+      background-image: url(images/image-hero-desktop.jpg);
+    }
+}
+
 nav img{
     margin-left:1.5rem;
     margin-top:1.75rem;
