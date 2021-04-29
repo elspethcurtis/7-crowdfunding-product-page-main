@@ -482,6 +482,13 @@ input:focus{
       border-radius: 15px;
   }
 
+  @media only screen and (min-width: 800px) {
+    .modal{
+      width: 60%;
+      left: 20%;
+    }
+  }
+
   .noReward-div,
   .bamboo-div,
   .black-div,
