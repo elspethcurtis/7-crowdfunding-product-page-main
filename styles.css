@@ -256,12 +256,19 @@ input:focus{
   .section-1 div,
   .section-2-main-div,
   .section-3-main-div {
-    width: 50%;
-    border: lightgray solid 1px;
+    width: 80%;
     background: white;
     padding-bottom: 30px;
     border-radius: 8px;
     text-align: center;
+  }
+
+  @media only screen and (min-width: 800px) {
+    .section-1 div,
+    .section-2-main-div,
+    .section-3-main-div {
+      width: 50%;
+    }
   }
 
   .section-2-main-div,
